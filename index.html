@@ -360,32 +360,32 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            max-width: 90%;
-            margin: 20px auto 0; /* Added top margin to shift down */
+            max-width: 800px;
+            margin: 0 auto ; /* Added top margin to shift down */
             position: relative;
         }
         
         .modak {
-            width: 100px;
-            height: 100px;
+            width: 120px;
+            height: 120px;
             background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><path fill="%23f5f0e4" d="M50,10 C60,15 70,20 80,30 C90,40 95,50 90,60 C85,70 75,75 65,80 C55,85 45,85 35,80 C25,75 15,70 10,60 C5,50 10,40 20,30 C30,20 40,15 50,10 Z"/></svg>');
             background-size: contain;
             cursor: pointer;
-            margin-bottom: 25px;
+            margin-bottom: 30px;
             animation: glow 2s infinite alternate, float 4s ease-in-out infinite;
             z-index: 10;
             transition: all 0.5s;
-            filter: drop-shadow(0 4px 12px rgba(212, 175, 55, 0.5));
+            filter: drop-shadow(0 5px 15px rgba(212, 175, 55, 0.6));
             position: relative;
         }
         
         .modak:active {
-            transform: scale(1.05) rotate(5deg);
+            transform: scale(1.1) rotate(10deg);
         }
         
         .modak-instruction {
             position: absolute;
-            bottom: -20px;
+            bottom: -25px;
             left: 50%;
             transform: translateX(-50%);
             color: var(--gold);
@@ -397,16 +397,16 @@
         .message-container {
             background: linear-gradient(to bottom, #f9f3e9, #e8dfca);
             color: var(--dark-brown);
-            padding: 15px;
-            border-radius: 8px;
-            box-shadow: 0 8px 25px rgba(0,0,0,0.25);
-            border: 2px solid var(--gold);
-            max-width: 90%;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+            border: 3px solid var(--gold);
+            max-width: 600px;
             text-align: center;
             display: none;
             position: relative;
             z-index: 20;
-            transform: translateY(40px);
+            transform: translateY(50px);
             opacity: 0;
             transition: all 0.8s ease;
         }
@@ -419,17 +419,17 @@
         
         .message-title {
             font-family: 'Hind', sans-serif;
-            margin-bottom: 12px;
-            font-size: 1.2rem;
+            margin-bottom: 15px;
+            font-size: 1.4rem;
             color: var(--maroon);
-            border-bottom: 1px solid var(--gold);
-            padding-bottom: 6px;
+            border-bottom: 2px solid var(--gold);
+            padding-bottom: 8px;
         }
         
         .message-content {
             font-family: 'Hind', sans-serif;
-            font-size: 0.95rem;
-            line-height: 1.4;
+            font-size: 1.1rem;
+            line-height: 1.5;
         }
         
         /* Venue Scene */
