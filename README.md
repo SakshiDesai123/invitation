@@ -45,13 +45,6 @@
 
 
 
-### Customization Guide  
-| File               | Customization Options                          |
-|--------------------|-----------------------------------------------|
-| `index.html`       | Edit text content, image URLs, and metadata   |
-| `<style>` section  | Modify colors, fonts, and animation durations |
-| `<script>` section | Adjust timing, effects, and interactions      |
-
 ## 🌐 Browser Support  
 
 | Browser       | Support Level | Notes                          |
