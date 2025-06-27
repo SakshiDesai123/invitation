@@ -2,7 +2,7 @@
 
 **A beautifully animated, responsive HTML invitation for Ganesh Chaturthi celebrations with interactive elements and devotional music.**  
 
-![Preview](https://images.unsplash.com/photo-1630847250246-8523108b6b8a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80)  
+
 
 ## ✨ Features  
 
@@ -43,17 +43,7 @@
 | Typography      | Google Fonts             |
 | Responsiveness  | Bootstrap 5 Grid         |
 
-## 🚀 Installation & Usage  
 
-### Quick Start  
-1. Clone the repository:  
-   ```bash
-   git clone https://github.com/yourusername/ganpati-invitation.git
-   ```
-2. Replace placeholder assets:
-   - Add your audio file at `song/bappa.mp3`
-   - Replace the Ganesha image in the HTML
-3. Open `index.html` in any modern browser
 
 ### Customization Guide  
 | File               | Customization Options                          |
